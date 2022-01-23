@@ -140,7 +140,7 @@ export function meta(params: Params<ColumnOptions>): Params<ColumnOptions> {
       },
       {
         [xField]: {
-          type: 'cat',
+          // type: 'cat',
         },
         [yField]: {
           ...adjustYMetaByZero(data, yField),
